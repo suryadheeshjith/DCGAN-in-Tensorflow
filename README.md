@@ -1,2 +1,2 @@
-# DCGANs
+# DCGAN
 DCGAN Implementation
