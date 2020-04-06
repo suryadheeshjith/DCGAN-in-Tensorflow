@@ -12,7 +12,7 @@ DCGAN Implementation with MNIST
 #### Discriminator :
 
 Layers:
-
+```
 * Conv2D: 32 Filters, 5x5, Stride 1, padding 0
 * Leaky ReLU(alpha=0.01)
 * Max Pool 2x2, Stride 2
@@ -23,13 +23,13 @@ Layers:
 * Fully Connected with output size 4 x 4 x 64
 * Leaky ReLU(alpha=0.01)
 * Fully Connected with output size 1
-
+```
 
 #### Generator :
 
 Layers:
 
-
+```
 * Fully connected with output size 1024
 * `ReLU`
 * BatchNorm
@@ -42,7 +42,7 @@ Layers:
 * BatchNorm
 * Conv2d^T (transpose): 1 filter of 4x4, stride 2
 * `TanH`
-
+```
 
 
 
