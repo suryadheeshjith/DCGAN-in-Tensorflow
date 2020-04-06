@@ -2,7 +2,7 @@
 
 DCGAN Implementation with MNIST
 
-<img src="Images/MNIST_example.png" alt="Example1" width =700>
+<img src="Images/MNIST_example.png" alt="Example1" width =400>
 
 ### Data used : The classic MNIST dataset.
 
