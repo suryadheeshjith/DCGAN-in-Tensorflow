@@ -57,10 +57,9 @@ I am using Python version 3.7
 
 1. Clone the repository
 
-2. Install the requirements at Data/requirements.txt
+2. Install the requirements at requirements.txt
 
     ```
-    cd Data
     pip install -r requirements.txt
     ```
 
